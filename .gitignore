@@ -1,0 +1,6 @@
+# Ignore all .bat files
+*.bat
+
+# Ignore build artifacts
+*.exe
+*.log

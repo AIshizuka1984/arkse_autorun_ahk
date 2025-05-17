@@ -7,16 +7,7 @@ SendMode Input
 WalkToggle := 0
 RunToggle := 0
 
-GameTitle0 := "ARK"
-GameTitle1 := "Survival"
-GameTitle2 := "Evolved"
-;GameWindowTitle := "ahk_class Notepad ahk_exe Notepad.exe"
-
-WinGet, hwnd_game, ID, %GameWindowTitle%
-
 LShift & F1::
-WinGetClass, class, A
-WinGet, exe, ProcessName, A
 WinGetTitle, title, A
 MsgBox, Class: %class%`nEXE: %exe%`nTitle: %title%
 Return
