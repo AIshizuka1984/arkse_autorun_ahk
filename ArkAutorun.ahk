@@ -59,6 +59,11 @@ LShift & W::
     }
 Return
 
+$w::
+    AutoWalkOff()
+    AutoRunOff()
+    Send {Blind}{w}
+
 AutoWalk:
     If (ArkActive()){
         Send, {W Down}{LShift Up}
